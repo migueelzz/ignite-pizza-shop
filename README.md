@@ -41,5 +41,10 @@ npm run lint
 npm run test
 ```
 
+### preview
+
+![Captura de tela 2024-02-20 191212](https://github.com/migueelzz/ignite-pizza-shop/assets/74062845/47fdcb6e-f5dd-4cdc-9a75-a3e6ba48de42)
+
+
 ### credits
 This is a project developed at Ignite - React by <strong><a href="https://rocketseat.com.br">Rocketseat</a></strong>
