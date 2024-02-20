@@ -5,6 +5,7 @@ import { z } from 'zod'
 
 import { getOrders } from '@/api/get-orders'
 import { Pagination } from '@/components/pagination'
+import { ScrollArea } from '@/components/ui/scroll-area'
 import {
   Table,
   TableBody,
@@ -71,7 +72,8 @@ export function Orders() {
                   <TableHead className="w-[132px]"></TableHead>
                 </TableRow>
               </TableHeader>
-              <TableBody>
+
+              <TableBody className="w-full">
                 {isLoadingOrders && <OrderTableSkeleton />}
                 {result &&
                   result.orders.map((order) => {

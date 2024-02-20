@@ -1,20 +1,25 @@
-## Pizza Shop
+## Pizza Shop web
 
-Esse é um projeto do Ignite da [@Rocketseat]("https://rocketseat.com.br") desenvolvido na trilha de ReactJS, 
-que tem o propósito de exercitar conceitos visto nas aulas do curso criando uma aplicação de genrenciamento de 
-uma pizzaria (dashboard de administrador).
+This is an Ignite project from [@Rocketseat]("https://rocketseat.com.br") developed on the ReactJS trail,
+which has the purpose of exercising concepts seen in the course classes by creating a management application
+a pizzeria (admin dashboard).
 
-### stacks
-
+## stacks
 - ReactJS
 - TypeScript
 - TailwindCSS
 - Shadcn UI
+
+### HTTP and validations
 - Axios
 - React Query
 - React Router DOM
 - React Hook Form
+- Zod
+
+### test
 - Vitest
+- Playwright
 - Testing Library
 - MSW (Mock Service Worker)
 
